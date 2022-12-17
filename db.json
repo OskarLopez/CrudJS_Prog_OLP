@@ -4,6 +4,11 @@
       "nombre": "Oskar",
       "email": "Oskar@alura.com",
       "id": 1
+    },
+    {
+      "nombre": "Pedro",
+      "email": "pedro@alura.com",
+      "id": "d2a2c245-8270-4a0b-bdef-ca8e768cca1e"
     }
   ]
 }
