@@ -3,7 +3,6 @@ import { clientServices } from "../services/client-service.js";
 //*Backtics (Comillas al reves)
 
 const crearNuevaLinea = (nombre, email, id) => {
-  console.log(id);
   const linea = document.createElement("tr");
   const contenido = `
         <td class="td" data-td>
@@ -14,7 +13,7 @@ const crearNuevaLinea = (nombre, email, id) => {
         <ul class="table__button-control">
         <li>
         <a
-        href="../screens/editar_cliente.html"
+        href="../screens/editar_cliente.html?id=${id}"
         class="simple-button simple-button--edit"
         >
         Editar
